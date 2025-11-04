@@ -1,1 +1,33 @@
-
+{
+  "2788229376": {
+    "Name": "Da Hood",
+    "Remote": "MainEvent",
+    "Argument": "UpdateMousePos",
+    "AimSystem": "getAim"
+  },
+  "134531910435633": {
+    "Name": "Da Strike",
+    "Remote": "MAINEVENT",
+    "Argument": "MOUSE",
+    "AimSystem": "Remote"
+  },
+  "114144969678369": {
+    "Name": "Zee Hood",
+    "Remote": "MainRemoteEvent",
+    "RemotePath": "ReplicatedStorage.MainRemotes.MainRemoteEvent",
+    "Argument": "DEAHOODMOUSEPOSx3^3",
+    "AimSystem": "Remote"
+  },
+  "86385032689590": {
+    "Name": "Da Uphill",
+    "Remote": "MAINEVENT",
+    "Argument": "MOUSE",
+    "AimSystem": "Remote"
+  },
+  "94282079552629": {
+    "Name": "Da Downhill",
+    "Remote": "MAINEVENT",
+    "Argument": "MOUSE",
+    "AimSystem": "Remote"
+  }
+}
