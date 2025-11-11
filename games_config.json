@@ -1,11 +1,15 @@
 {
-  "games": {
-    "108845079876233": {
-      "name": "Pain hood",
-      "remote": "MainRemotes/MainRemoteEvent",
-      "identifier": "DurrHooDmOsussePosition144125+*-",
-      "identifier_index": 1,
-      "position_index": 2
+    "games": {
+        "2788229376": {
+            "name": "Da Hood",
+            "settings": {
+                "remote": "UpdateMousePos",
+                "0-delay": {
+                    "bool": true,
+                    "method": "r",
+                    "type": "1"
+                }
+            }
+        }
     }
-  }
 }
