@@ -2,7 +2,7 @@
   "games": {
     "108845079876233": {
       "name": "Pain hood",
-      "remote": "MainRemoteEvent",
+      "remote": "MainRemotes/MainRemoteEvent",
       "identifier": "DurrHooDmOsussePosition144125+*-",
       "identifier_index": 1,
       "position_index": 2
