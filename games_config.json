@@ -21,6 +21,42 @@
                     "type": "1"
                 }
             }
+        },
+        "134531910435633": {
+            "name": "Da Strike",
+            "settings": {
+                "remote": "MAINEVENT",
+                "remote_arg": "MOUSE",
+                "0-delay": {
+                    "bool": false,
+                    "method": "remote",
+                    "type": "1"
+                }
+            }
+        },
+        "86385032689590": {
+            "name": "Da Uphill",
+            "settings": {
+                "remote": "MAINEVENT",
+                "remote_arg": "MOUSE",
+                "0-delay": {
+                    "bool": false,
+                    "method": "remote",
+                    "type": "1"
+                }
+            }
+        },
+        "94282079552629": {
+            "name": "Da Downhill",
+            "settings": {
+                "remote": "MAINEVENT",
+                "remote_arg": "MOUSE",
+                "0-delay": {
+                    "bool": false,
+                    "method": "remote",
+                    "type": "1"
+                }
+            }
         }
     }
 }
