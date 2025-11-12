@@ -3,7 +3,7 @@
         "2788229376": {
             "name": "Da Hood",
             "settings": {
-                "remote": "UpdateMousePos",
+                "remote": "UpdateMousePosI2",
                 "0-delay": {
                     "bool": true,
                     "method": "r",
