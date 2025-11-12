@@ -10,6 +10,17 @@
                     "type": "1"
                 }
             }
+        },
+        "108845079876233": {
+            "name": "Pain hood",
+            "settings": {
+                "remote": "DurrHooDmOsussePosition144125+*-",
+                "0-delay": {
+                    "bool": true,
+                    "method": "r",
+                    "type": "1"
+                }
+            }
         }
     }
 }
