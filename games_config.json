@@ -25,10 +25,11 @@
         "134531910435633": {
             "name": "Da Strike",
             "settings": {
-                "remote": "MOUSE",
+                "remote": "MAINEVENT",
+                "remote_arg": "MOUSE",
                 "0-delay": {
                     "bool": false,
-                    "method": "r",
+                    "method": "remote",
                     "type": "1"
                 }
             }
@@ -36,10 +37,11 @@
         "86385032689590": {
             "name": "Da Uphill",
             "settings": {
-                "remote": "MOUSE",
+                "remote": "MAINEVENT",
+                "remote_arg": "MOUSE",
                 "0-delay": {
                     "bool": false,
-                    "method": "r",
+                    "method": "remote",
                     "type": "1"
                 }
             }
@@ -47,10 +49,11 @@
         "94282079552629": {
             "name": "Da Downhill",
             "settings": {
-                "remote": "MOUSE",
+                "remote": "MAINEVENT",
+                "remote_arg": "MOUSE",
                 "0-delay": {
                     "bool": false,
-                    "method": "r",
+                    "method": "remote",
                     "type": "1"
                 }
             }
