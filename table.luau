@@ -62,6 +62,7 @@ getgenv().vsc_cc = {
             ['Point Scale'] = 1.0
         },
         ['Snapiness'] = 0.2,
+        ['Easing Style'] = 'Linear',  -- Linear, Ease Out, Ease In, Ease In Out, Exponential, Sine
         ['Prediction'] = {
             ['X'] = 0.12,
             ['Y'] = 0.08,
