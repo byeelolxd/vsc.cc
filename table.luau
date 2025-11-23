@@ -118,11 +118,20 @@ getgenv().vsc_cc = {
     ['Weapon Modifications'] = {
         ['Spread Modifications'] = {
             ['Enabled'] = true,
-            ['Value'] = 0,
             ['Weapon Spreads'] = {
                 ['[Shotgun]'] = 1,
                 ['[TacticalShotgun]'] = 1,
                 ['[Double-Barrel SG]'] = 1
+            }
+        },
+        ['Delay Modifications'] = {  
+            ['Enabled'] = false,
+            ['Weapon Delays'] = {  -- Lower value = faster fire rate
+                ['[Shotgun]'] = 0.01,
+                ['[TacticalShotgun]'] = 0.01,
+                ['[Double-Barrel SG]'] = 0.01,
+                ['[Revolver]'] = 0.01,
+                ['[Pistol]'] = 0.01,
             }
         }
     },
