@@ -1,4 +1,4 @@
-script_key = 'your_key_here'
+script_key = 'AqTuybAECTBhaBexYasNYjyozUPcwRXb'
 
 getgenv().vsc_cc = {
     ['Global'] = {
@@ -17,24 +17,24 @@ getgenv().vsc_cc = {
         ['Mode'] = 'Fov', -- 'Fov' or 'Distance'
         ['Activation'] = {
             ['Type'] = 'Always', -- 'Always' (toggle on/off), 'Hold' (hold to aim), 'Toggle' (lock/unlock target)
-            ['Keybind'] = 'X'
+            ['Keybind'] = 'P'
         },
         ['Show Target Line'] = true,  -- Show line when locked (Toggle mode only)
-        ['Hit Part'] = 'Closest Point', -- 'Closest Point', 'Closest Part', or specific part name
+        ['Hit Part'] = 'Closest Part', -- 'Closest Point', 'Closest Part', or specific part name
         ['Closest Point'] = {
             ['Point Scale'] = 1.0
         },
         ['Prediction'] = {
-            ['X'] = 0.12,
-            ['Y'] = 0.08,
-            ['Z'] = 0.12
+            ['X'] = 0.12286,
+            ['Y'] = 0.0440,
+            ['Z'] = 0.12286
         },
         ['FOV'] = {
             ['Enabled'] = true,
-            ['Size'] = 80
+            ['Size'] = 50
         },
         ['Anti Curve'] = {
-            ['Enabled'] = false,
+            ['Enabled'] = true,
             ['Max Horizontal'] = 35,  -- Leftright angle limit
             ['Max Vertical'] = 20     -- Updown angle limit
         },
@@ -54,19 +54,19 @@ getgenv().vsc_cc = {
         ['Mode'] = 'Fov', -- 'Fov' or 'Distance'
         ['Method'] = 'Camera',  -- 'Camera' or 'Mouse'
         ['Activation'] = {
-            ['Type'] = 'Hold', -- 'Always' (toggle on/off), 'Hold' (hold to aim), 'Toggle' (lock/unlock target)
-            ['Keybind'] = 'Z'
+            ['Type'] = 'Toggle', -- 'Always' (toggle on/off), 'Hold' (hold to aim), 'Toggle' (lock/unlock target)
+            ['Keybind'] = 'Q'
         },
         ['Hit Part'] = 'Closest Part', -- 'Closest Point', 'Closest Part', or specific part name
         ['Closest Point'] = {
             ['Point Scale'] = 1.0
         },
-        ['Snapiness'] = 0.2,
+        ['Snapiness'] = 0.0209,
         ['Easing Style'] = 'Linear',  -- Linear, Ease Out, Ease In, Ease In Out, Exponential, Sine
         ['Prediction'] = {
-            ['X'] = 0.12,
-            ['Y'] = 0.08,
-            ['Z'] = 0.12
+            ['X'] = 0.12286,
+            ['Y'] = 0.0440,
+            ['Z'] = 0.12286,
         },
         ['FOV'] = {
             ['Enabled'] = true,
@@ -81,7 +81,7 @@ getgenv().vsc_cc = {
     },
 
     ['Triggerbot'] = {
-        ['Enabled'] = true,
+        ['Enabled'] = false,
         ['FOV'] = {
             ['Enabled'] = true,
             ['Size'] = 60,
@@ -138,10 +138,14 @@ getgenv().vsc_cc = {
     },
 
     ['Checks'] = {
-        ['Knocked Check'] = true,
-        ['Wall Check'] = true,
+        ['Knocked Check'] = false,
+        ['Wall Check'] = false,
         ['Crew Check'] = false,
-        ['Grabbed Check'] = true
+        ['Grabbed Check'] = false
+    },
+
+    ['Fake Position'] = {
+        ['Keybind'] = 'V'
     },
 
     ['Resolver'] = {
