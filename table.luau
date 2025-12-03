@@ -1,4 +1,4 @@
-script_key = 'AqTuybAECTBhaBexYasNYjyozUPcwRXb'
+script_key = 'your_key_here'
 
 getgenv().vsc_cc = {
     ['Global'] = {
