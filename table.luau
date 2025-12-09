@@ -77,17 +77,32 @@ getgenv().vsc_cc = {
                 ['Pistols'] = 95,
                 ['Others'] = 110
             }
+        },
+        ['Camera Modes'] = {
+            ['Shift Locked'] = true,
+            ['Third Person'] = true,
+            ['First Person'] = true
         }
     },
 
     ['Triggerbot'] = {
         ['Enabled'] = false,
+        ['Mode'] = 'FOV', -- 'FOV' or 'Mouse'
         ['FOV'] = {
             ['Enabled'] = true,
             ['Size'] = 60,
             ['Visible'] = true
         },
-        ['Click Cooldown'] = 0.05,
+        ['Click Cooldown'] = 0.05,  -- Global delay (used when Use Weapon Delays is false)
+        ['Use Weapon Delays'] = true,  -- Use per-weapon delays instead of global cooldown
+        ['Weapon Delays'] = {
+            ['[Revolver]'] = 0.03,
+            ['[Double-Barrel SG]'] = 0.08,
+            ['[TacticalShotgun]'] = 0.06,
+            ['[Shotgun]'] = 0.05,
+            ['[AR-15]'] = 0.04,
+            ['[Pistol]'] = 0.04
+        },
         ['Activation'] = {
             ['Mode'] = 'Hold', -- 'Always', 'Hold', 'Toggle'
             ['Keybind'] = 'V'
@@ -152,6 +167,31 @@ getgenv().vsc_cc = {
         ['Enabled'] = true,
         ['Sensitivity'] = 0.7,
         ['Max Frames'] = 6
+    },
+
+    ['Raid Awareness'] = {
+        ['ESP'] = {
+            ['Enabled'] = true,  -- Enable/disable ESP system
+            ['Toggle'] = true,   -- Allow toggling with keybind
+            ['Bind'] = 'T',      -- Keybind to toggle ESP on/off
+            ['Notifications'] = true,  -- Show notification when toggling
+
+            ['Conditions'] = {
+                ['Knocked'] = false,      -- Only show knocked players
+                ['Self Knocked'] = false, -- Hide ESP when you're knocked
+                ['Team Check'] = true     -- Hide teammates
+            },
+
+            ['Settings'] = {
+                ['NameTag'] = true,           -- Show player names
+                ['Type'] = 'Display Name',    -- 'Display Name' or 'Username'
+                ['Box'] = true,               -- Show box around players
+                ['Mode'] = 'Corner Box',      -- 'Corner Box' or 'Regular Box'
+                ['HealthBar'] = true,         -- Show health bar
+                ['Tool'] = false,             -- Show equipped tool
+                ['Distance'] = true           -- Show distance in studs
+            }
+        }
     }
 }
 
